@@ -1,0 +1,26 @@
+ul#timerClock li {
+  display: inline-block;
+  font-size: 90%;
+  list-style-type: none;
+/*  padding: 100%;*/
+  text-transform: uppercase;
+  color:#654321
+}
+
+ul#timerClock li span {
+  display: block;
+  font-size: 200%;
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+.clock {
+  text-align: left;
+  margin-top:16em
+}
+@media screen and (max-width: 768px) {
+  .clock {
+    text-align: left;
+    margin-top:8em
+  }
+}

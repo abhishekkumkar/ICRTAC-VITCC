@@ -1,0 +1,48 @@
+.footerLogo {
+  width: 75px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  padding: 3rem 1.5rem 2rem;
+}
+
+.hero.is-info {
+  background-color: #3F51B5;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero.is-info .tabs.is-boxed li.is-active a{
+  color: #3F51B5;
+}
+
+.indigo {
+  color: #3F51B5;
+}
+
+
+.image img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.chief-patron {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.narrow-padding {
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+/*
+@jeremy
+Keep the heights of all the route same in order to ensure
+fluidity while transitioning.
+*/
+.route {
+  display: none;
+}
